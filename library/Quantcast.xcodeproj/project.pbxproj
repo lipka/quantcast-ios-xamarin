@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		338724AF1E5C722B0044D3D9 /* QuantcastDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3387249B1E5C722B0044D3D9 /* QuantcastDatabase.m */; };
+		338724B01E5C722B0044D3D9 /* QuantcastDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3387249D1E5C722B0044D3D9 /* QuantcastDataManager.m */; };
+		338724B11E5C722B0044D3D9 /* QuantcastEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3387249F1E5C722B0044D3D9 /* QuantcastEvent.m */; };
+		338724B21E5C722B0044D3D9 /* QuantcastMeasurement.m in Sources */ = {isa = PBXBuildFile; fileRef = 338724A21E5C722B0044D3D9 /* QuantcastMeasurement.m */; };
+		338724B31E5C722B0044D3D9 /* QuantcastOptOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338724A71E5C722B0044D3D9 /* QuantcastOptOutViewController.m */; };
+		338724B41E5C722B0044D3D9 /* QuantcastPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 338724AA1E5C722B0044D3D9 /* QuantcastPolicy.m */; };
+		338724B51E5C722B0044D3D9 /* QuantcastUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 338724AC1E5C722B0044D3D9 /* QuantcastUploadManager.m */; };
+		338724B61E5C722B0044D3D9 /* QuantcastUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 338724AE1E5C722B0044D3D9 /* QuantcastUtils.m */; };
+		338724C91E5C73510044D3D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338724C81E5C73510044D3D9 /* UIKit.framework */; };
+		338724CB1E5C73580044D3D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338724CA1E5C73580044D3D9 /* CoreGraphics.framework */; };
+		338724CD1E5C735D0044D3D9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338724CC1E5C735D0044D3D9 /* CoreTelephony.framework */; };
+		338724CF1E5C73630044D3D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338724CE1E5C73630044D3D9 /* Foundation.framework */; };
+		338724D51E5C73840044D3D9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338724D41E5C73840044D3D9 /* Security.framework */; };
+		338724D71E5C73890044D3D9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338724D61E5C73890044D3D9 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		338724871E5C71B60044D3D9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		338724891E5C71B60044D3D9 /* libQuantcast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQuantcast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3387249A1E5C722B0044D3D9 /* QuantcastDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuantcastDatabase.h; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastDatabase.h"; sourceTree = SOURCE_ROOT; };
+		3387249B1E5C722B0044D3D9 /* QuantcastDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuantcastDatabase.m; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastDatabase.m"; sourceTree = SOURCE_ROOT; };
+		3387249C1E5C722B0044D3D9 /* QuantcastDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuantcastDataManager.h; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastDataManager.h"; sourceTree = SOURCE_ROOT; };
+		3387249D1E5C722B0044D3D9 /* QuantcastDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuantcastDataManager.m; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastDataManager.m"; sourceTree = SOURCE_ROOT; };
+		3387249E1E5C722B0044D3D9 /* QuantcastEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuantcastEvent.h; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastEvent.h"; sourceTree = SOURCE_ROOT; };
+		3387249F1E5C722B0044D3D9 /* QuantcastEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuantcastEvent.m; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastEvent.m"; sourceTree = SOURCE_ROOT; };
+		338724A01E5C722B0044D3D9 /* QuantcastEventLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuantcastEventLogger.h; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastEventLogger.h"; sourceTree = SOURCE_ROOT; };
+		338724A11E5C722B0044D3D9 /* QuantcastMeasurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuantcastMeasurement.h; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastMeasurement.h"; sourceTree = SOURCE_ROOT; };
+		338724A21E5C722B0044D3D9 /* QuantcastMeasurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuantcastMeasurement.m; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastMeasurement.m"; sourceTree = SOURCE_ROOT; };
+		338724A31E5C722B0044D3D9 /* QuantcastMeasurement+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "QuantcastMeasurement+Internal.h"; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastMeasurement+Internal.h"; sourceTree = SOURCE_ROOT; };
+		338724A41E5C722B0044D3D9 /* QuantcastNetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuantcastNetworkReachability.h; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastNetworkReachability.h"; sourceTree = SOURCE_ROOT; };
+		338724A51E5C722B0044D3D9 /* QuantcastOptOutDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuantcastOptOutDelegate.h; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastOptOutDelegate.h"; sourceTree = SOURCE_ROOT; };
+		338724A61E5C722B0044D3D9 /* QuantcastOptOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuantcastOptOutViewController.h; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastOptOutViewController.h"; sourceTree = SOURCE_ROOT; };
+		338724A71E5C722B0044D3D9 /* QuantcastOptOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuantcastOptOutViewController.m; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastOptOutViewController.m"; sourceTree = SOURCE_ROOT; };
+		338724A81E5C722B0044D3D9 /* QuantcastParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuantcastParameters.h; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastParameters.h"; sourceTree = SOURCE_ROOT; };
+		338724A91E5C722B0044D3D9 /* QuantcastPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuantcastPolicy.h; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastPolicy.h"; sourceTree = SOURCE_ROOT; };
+		338724AA1E5C722B0044D3D9 /* QuantcastPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuantcastPolicy.m; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastPolicy.m"; sourceTree = SOURCE_ROOT; };
+		338724AB1E5C722B0044D3D9 /* QuantcastUploadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuantcastUploadManager.h; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastUploadManager.h"; sourceTree = SOURCE_ROOT; };
+		338724AC1E5C722B0044D3D9 /* QuantcastUploadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuantcastUploadManager.m; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastUploadManager.m"; sourceTree = SOURCE_ROOT; };
+		338724AD1E5C722B0044D3D9 /* QuantcastUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuantcastUtils.h; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastUtils.h"; sourceTree = SOURCE_ROOT; };
+		338724AE1E5C722B0044D3D9 /* QuantcastUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuantcastUtils.m; path = "quantcast-app-measurement-sdk/iOS/Quantcast-iOS-Measurement/QuantcastUtils.m"; sourceTree = SOURCE_ROOT; };
+		338724C81E5C73510044D3D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		338724CA1E5C73580044D3D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		338724CC1E5C735D0044D3D9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		338724CE1E5C73630044D3D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		338724D01E5C73770044D3D9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		338724D21E5C737E0044D3D9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		338724D41E5C73840044D3D9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		338724D61E5C73890044D3D9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		338724861E5C71B60044D3D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338724D71E5C73890044D3D9 /* SystemConfiguration.framework in Frameworks */,
+				338724D51E5C73840044D3D9 /* Security.framework in Frameworks */,
+				338724CF1E5C73630044D3D9 /* Foundation.framework in Frameworks */,
+				338724CD1E5C735D0044D3D9 /* CoreTelephony.framework in Frameworks */,
+				338724CB1E5C73580044D3D9 /* CoreGraphics.framework in Frameworks */,
+				338724C91E5C73510044D3D9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		338724801E5C71B60044D3D9 = {
+			isa = PBXGroup;
+			children = (
+				3387248B1E5C71B60044D3D9 /* Quantcast */,
+				3387248A1E5C71B60044D3D9 /* Products */,
+				338724C71E5C73510044D3D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3387248A1E5C71B60044D3D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				338724891E5C71B60044D3D9 /* libQuantcast.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3387248B1E5C71B60044D3D9 /* Quantcast */ = {
+			isa = PBXGroup;
+			children = (
+				338724961E5C72070044D3D9 /* Measurement */,
+			);
+			path = Quantcast;
+			sourceTree = "<group>";
+		};
+		338724961E5C72070044D3D9 /* Measurement */ = {
+			isa = PBXGroup;
+			children = (
+				3387249A1E5C722B0044D3D9 /* QuantcastDatabase.h */,
+				3387249B1E5C722B0044D3D9 /* QuantcastDatabase.m */,
+				3387249C1E5C722B0044D3D9 /* QuantcastDataManager.h */,
+				3387249D1E5C722B0044D3D9 /* QuantcastDataManager.m */,
+				3387249E1E5C722B0044D3D9 /* QuantcastEvent.h */,
+				3387249F1E5C722B0044D3D9 /* QuantcastEvent.m */,
+				338724A01E5C722B0044D3D9 /* QuantcastEventLogger.h */,
+				338724A11E5C722B0044D3D9 /* QuantcastMeasurement.h */,
+				338724A21E5C722B0044D3D9 /* QuantcastMeasurement.m */,
+				338724A31E5C722B0044D3D9 /* QuantcastMeasurement+Internal.h */,
+				338724A41E5C722B0044D3D9 /* QuantcastNetworkReachability.h */,
+				338724A51E5C722B0044D3D9 /* QuantcastOptOutDelegate.h */,
+				338724A61E5C722B0044D3D9 /* QuantcastOptOutViewController.h */,
+				338724A71E5C722B0044D3D9 /* QuantcastOptOutViewController.m */,
+				338724A81E5C722B0044D3D9 /* QuantcastParameters.h */,
+				338724A91E5C722B0044D3D9 /* QuantcastPolicy.h */,
+				338724AA1E5C722B0044D3D9 /* QuantcastPolicy.m */,
+				338724AB1E5C722B0044D3D9 /* QuantcastUploadManager.h */,
+				338724AC1E5C722B0044D3D9 /* QuantcastUploadManager.m */,
+				338724AD1E5C722B0044D3D9 /* QuantcastUtils.h */,
+				338724AE1E5C722B0044D3D9 /* QuantcastUtils.m */,
+			);
+			name = Measurement;
+			sourceTree = "<group>";
+		};
+		338724C71E5C73510044D3D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				338724D61E5C73890044D3D9 /* SystemConfiguration.framework */,
+				338724D41E5C73840044D3D9 /* Security.framework */,
+				338724D21E5C737E0044D3D9 /* libz.tbd */,
+				338724D01E5C73770044D3D9 /* libsqlite3.tbd */,
+				338724CE1E5C73630044D3D9 /* Foundation.framework */,
+				338724CC1E5C735D0044D3D9 /* CoreTelephony.framework */,
+				338724CA1E5C73580044D3D9 /* CoreGraphics.framework */,
+				338724C81E5C73510044D3D9 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		338724881E5C71B60044D3D9 /* Quantcast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 338724921E5C71B60044D3D9 /* Build configuration list for PBXNativeTarget "Quantcast" */;
+			buildPhases = (
+				338724851E5C71B60044D3D9 /* Sources */,
+				338724861E5C71B60044D3D9 /* Frameworks */,
+				338724871E5C71B60044D3D9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quantcast;
+			productName = Quantcast;
+			productReference = 338724891E5C71B60044D3D9 /* libQuantcast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		338724811E5C71B60044D3D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Lukas Lipka";
+				TargetAttributes = {
+					338724881E5C71B60044D3D9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 338724841E5C71B60044D3D9 /* Build configuration list for PBXProject "Quantcast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 338724801E5C71B60044D3D9;
+			productRefGroup = 3387248A1E5C71B60044D3D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				338724881E5C71B60044D3D9 /* Quantcast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		338724851E5C71B60044D3D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338724B41E5C722B0044D3D9 /* QuantcastPolicy.m in Sources */,
+				338724B61E5C722B0044D3D9 /* QuantcastUtils.m in Sources */,
+				338724B31E5C722B0044D3D9 /* QuantcastOptOutViewController.m in Sources */,
+				338724B11E5C722B0044D3D9 /* QuantcastEvent.m in Sources */,
+				338724B01E5C722B0044D3D9 /* QuantcastDataManager.m in Sources */,
+				338724AF1E5C722B0044D3D9 /* QuantcastDatabase.m in Sources */,
+				338724B21E5C722B0044D3D9 /* QuantcastMeasurement.m in Sources */,
+				338724B51E5C722B0044D3D9 /* QuantcastUploadManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		338724901E5C71B60044D3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		338724911E5C71B60044D3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		338724931E5C71B60044D3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		338724941E5C71B60044D3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		338724841E5C71B60044D3D9 /* Build configuration list for PBXProject "Quantcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338724901E5C71B60044D3D9 /* Debug */,
+				338724911E5C71B60044D3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		338724921E5C71B60044D3D9 /* Build configuration list for PBXNativeTarget "Quantcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338724931E5C71B60044D3D9 /* Debug */,
+				338724941E5C71B60044D3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 338724811E5C71B60044D3D9 /* Project object */;
+}
